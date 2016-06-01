@@ -5,14 +5,23 @@
  */
 package principal;
 
+import java.io.IOException;
+import lucene.SearchEngine;
+
 /**
  *
  * @author roliveira
  */
 public class Main {
 
-   public static void main(String[] args){
+   public static void main(String[] args) throws IOException{
+       
+         SearchEngine s = new SearchEngine();
+           s.getDocument(1);
+       
    }
    
+  
+    
     
 }
